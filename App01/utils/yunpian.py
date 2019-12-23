@@ -5,12 +5,12 @@ class YunPian():
     def __init__(self, api_key):
         self.api_key = api_key
         self.single_send_url = 'https://sms.yunpian.com/v2/sms/single_send.json'
-
+        # self.single_send_url = 'https://sms.yunpian.com/v1/sms/send.json'
     def send_sms(self, code, mobile):
         parmas = {
             'apikey': self.api_key,
             'mobile': mobile,
-            'text': '【jinghuashuiyue】正在进行登陆操作，您的验证码是{code}'.format(code=code)
+            'text': '【jinghuashuiyue】正在进行登录操作，您的验证码是{code}'.format(code=code)
         }
         r = requests.post(self.single_send_url, data=parmas)
         print(r.text)

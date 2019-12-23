@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cce8ee4-a57d-46d5-8708-aed5e1009a56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App01/utils/yunpian.py" beforeDir="false" afterPath="$PROJECT_DIR$/App01/utils/yunpian.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,8 @@
       <workItem from="1577018373707" duration="6516000" />
       <workItem from="1577069215537" duration="2078000" />
       <workItem from="1577075224414" duration="106000" />
+      <workItem from="1577083429805" duration="62000" />
+      <workItem from="1577083496019" duration="293000" />
     </task>
     <servers />
   </component>

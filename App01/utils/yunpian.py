@@ -10,7 +10,7 @@ class YunPian():
         parmas = {
             'apikey': self.api_key,
             'mobile': mobile,
-            'text': '"jinghuashuiyue"正在进行登陆操作，您的验证码是{code}'.format(code=code)
+            'text': '【jinghuashuiyue】正在进行登陆操作，您的验证码是{code}'.format(code=code)
         }
         r = requests.post(self.single_send_url, data=parmas)
         print(r.text)
